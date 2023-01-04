@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "node_http.js",
   "scripts": {
-    "start": "node socket.js",
+    "start": "node websocket.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
