@@ -37,7 +37,7 @@ wss.on("connection", (ws, req) => {
     });
 })
 
-server.listen(3000, () => {
+server.listen(process.env.PORT || 3000, () => {
     console.log('opened server on', server.address().port);
 });
 
